@@ -9,7 +9,8 @@ import Heading from "@/app/components/modals/Heading";
 import Input from "@/app/components/inputs/Input";
 import toast from "react-hot-toast";
 import Button from "@/app/components/Button";
-import {AiFillGithub, FcGoogle} from "react-icons/all";
+import {FcGoogle} from "react-icons/fc";
+import {AiFillGithub} from "react-icons/ai";
 
 const RegisterModal = () => {
   const registerModal = useRegisterModal()
