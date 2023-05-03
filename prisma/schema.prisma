@@ -1,15 +1,33 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
+// npx prisma --datasource-provider <provider>을 입력하면 .env 파일과 schema.prisma 파일이 생성되고
+// genrator와 datasource 객체가 생성된다.
+// 여러개의 생성기를 가질 수 있다.
 generator client {
   provider = "prisma-client-js"
 }
-
+// schema 에서는 단일 데이터 소스만 가질 수 있다.
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
+// Schema model 정의
+// 각 행은 필드로 구분되며 각 필드는 크게 4개의 영역으로 구분된다.
+// <name> <fieldType> <modifier - optional> <defaultValue - optional>
+// <fieldType> 속성에는 다른 모델을 입력할 수 있으며, 모델의 배열로도 지정할 수 있다.
+// 또한 enum을 작성하여 사용할 수 있다.
+// <modifier> 속성은 @로 시작하고 id인지, 유니크한지 등의 속성을 지정할 수 있다.
+// <modifier> 속성에 @updatedAt을 입력하면 데이터가 업데이트 될 때, 자동으로 입력된다.
+// 또한 추가적인 속성으로 블록 레벨 속성이 있다.
+// 블록 레벨 속성은 @@로 시작하며 자신의 줄을 따로 가진다.
+// @@unique([name, age])를 작성하면,이름과 나이가 동시에 같은 사람은 있을 수 없게 된다.
+// @@index([email])를 작성하면, 이메일에 대한 index 값을 생성한다.
+// 게시물 모델 안에 @@id([title, authorId])를 작성하면, 제목의 id와 작성자의 id가 게시물의 id를 나타내게 된다.
+
+// Schema를 작성하고 npx prisma migrate 명령어를 실행하면 migration 파일을 생성한다.
+// 데이터베이스와 상호 작용하기 위한 클라이언트 코드를 업데이트한다.
 model User {
   id             String    @id @default(auto()) @map("_id") @db.ObjectId
   name           String?
