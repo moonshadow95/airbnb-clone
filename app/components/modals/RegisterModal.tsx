@@ -11,6 +11,7 @@ import toast from "react-hot-toast";
 import Button from "@/app/components/Button";
 import {FcGoogle} from "react-icons/fc";
 import {AiFillGithub} from "react-icons/ai";
+import {signIn} from "next-auth/react";
 
 const RegisterModal = () => {
   const registerModal = useRegisterModal()
@@ -38,47 +39,6 @@ const RegisterModal = () => {
       .catch(error => toast.error('Something went wrong...'))
       .finally(() => setIsLoading(false))
   }
-
-  const footerContent = (
-    <div className={'flex flex-col gap-4 mt-3'}>
-      <hr/>
-      <Button
-        outline
-        label={'Continue with Google'}
-        icon={FcGoogle}
-        onClick={() => {
-        }}
-      />
-      <Button
-        outline
-        label={'Continue with Github'}
-        icon={AiFillGithub}
-        onClick={() => {
-        }}
-      />
-      <div
-        className={
-          'text-neutral-500 text-center mt-4 font-light'
-        }>
-        <div
-          className={
-            'justify-center flex flex-row items-center gap-2'
-          }>
-          <div>
-            Already have an account?
-          </div>
-          <div
-            onClick={registerModal.onClose}
-            className={
-              'text-neutral-800 cursor-pointer hover:underline'
-            }
-          >
-            Log in
-          </div>
-        </div>
-      </div>
-    </div>
-  )
 
   const bodyContent = (
     <div className='flex flex-col gap-4'>
@@ -113,6 +73,47 @@ const RegisterModal = () => {
       />
     </div>
   )
+
+  const footerContent = (
+    <div className={'flex flex-col gap-4 mt-3'}>
+      <hr/>
+      <Button
+        outline
+        label={'Continue with Google'}
+        icon={FcGoogle}
+        onClick={() => {
+        }}
+      />
+      <Button
+        outline
+        label={'Continue with Github'}
+        icon={AiFillGithub}
+        onClick={() => signIn('github')}
+      />
+      <div
+        className={
+          'text-neutral-500 text-center mt-4 font-light'
+        }>
+        <div
+          className={
+            'justify-center flex flex-row items-center gap-2'
+          }>
+          <div>
+            Already have an account?
+          </div>
+          <div
+            onClick={registerModal.onClose}
+            className={
+              'text-neutral-800 cursor-pointer hover:underline'
+            }
+          >
+            Log in
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+  
   return (
     <Modal
       disabled={isLoading}

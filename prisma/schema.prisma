@@ -37,7 +37,7 @@ model User {
   hashedPassword String?
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
-  favoritIds     String[]  @db.ObjectId
+  favoriteIds    String[]  @db.ObjectId
 
   accounts     Account[]
   listings     Listing[]
@@ -45,22 +45,22 @@ model User {
 }
 
 model Account {
-  id               String  @id @default(auto()) @map("_id") @db.ObjectId
-  userId           String  @db.ObjectId
-  type             String
-  provider         String
-  providerAccoutId String
-  refresh_token    String? @db.String
-  access_token     String? @db.String
-  expries_at       Int?
-  token_type       String?
-  scope            String?
-  id_token         String? @db.String
-  session_state    String?
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String  @db.ObjectId
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.String
+  access_token      String? @db.String
+  expries_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.String
+  session_state     String?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-  @@unique([provider, providerAccoutId])
+  @@unique([provider, providerAccountId])
 }
 
 model Listing {
