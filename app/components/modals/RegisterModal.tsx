@@ -81,8 +81,7 @@ const RegisterModal = () => {
         outline
         label={'Continue with Google'}
         icon={FcGoogle}
-        onClick={() => {
-        }}
+        onClick={() => signIn('google')}
       />
       <Button
         outline
@@ -113,7 +112,7 @@ const RegisterModal = () => {
       </div>
     </div>
   )
-  
+
   return (
     <Modal
       disabled={isLoading}
