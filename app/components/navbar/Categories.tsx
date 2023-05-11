@@ -25,8 +25,7 @@ export const categories = [
     label: 'Beach',
     icon: TbBeach,
     description: 'This property is close to the beach!'
-  },
-  {
+  }, {
     label: 'Windmills',
     icon: GiWindmill,
     description: 'This property has windmills!'
@@ -34,7 +33,7 @@ export const categories = [
     label: 'Modern',
     icon: MdOutlineVilla,
     description: 'This property is Modern!'
-  }, , {
+  }, {
     label: 'Countryside',
     icon: TbMountain,
     description: 'This property is in the countryside!'
@@ -82,7 +81,7 @@ export const categories = [
     label: 'Lux',
     icon: IoDiamond,
     description: 'This property is luxurious!'
-  },
+  }
 ]
 const Categories = () => {
   const params = useSearchParams()
