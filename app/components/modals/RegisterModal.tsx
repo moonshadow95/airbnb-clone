@@ -1,7 +1,7 @@
 'use client'
 
-import React, {useState} from 'react';
-import {useRegisterModal} from "@/app/components/modals/useRegisterModal";
+import React, {useCallback, useState} from 'react';
+
 import {FieldValues, SubmitHandler, useForm} from 'react-hook-form';
 import axios from "axios";
 import Modal from "@/app/components/modals/Modal";
@@ -13,8 +13,12 @@ import {FcGoogle} from "react-icons/fc";
 import {AiFillGithub} from "react-icons/ai";
 import {signIn} from "next-auth/react";
 
+import useLoginModal from "@/app/hooks/useLoginModal";
+import useRegisterModal from "@/app/hooks/useRegisterModal";
+
 const RegisterModal = () => {
   const registerModal = useRegisterModal()
+  const loginModal = useLoginModal()
   const [isLoading, setIsLoading] = useState(false);
 
   const {
@@ -39,6 +43,11 @@ const RegisterModal = () => {
       .catch(error => toast.error('Something went wrong...'))
       .finally(() => setIsLoading(false))
   }
+  /**가입창 닫고 로그인창으로 전환*/
+  const toggle = useCallback(() => {
+    registerModal.onClose()
+    loginModal.onOpen()
+  }, [loginModal, registerModal])
 
   const bodyContent = (
     <div className='flex flex-col gap-4'>
@@ -101,7 +110,7 @@ const RegisterModal = () => {
             Already have an account?
           </div>
           <div
-            onClick={registerModal.onClose}
+            onClick={toggle}
             className={
               'text-neutral-800 cursor-pointer hover:underline'
             }

@@ -1,7 +1,6 @@
 'use client'
 
-import React, {useState} from 'react';
-import {useRegisterModal} from "@/app/components/modals/useRegisterModal";
+import React, {useCallback, useState} from 'react';
 import {FieldValues, SubmitHandler, useForm} from 'react-hook-form';
 import Modal from "@/app/components/modals/Modal";
 import Heading from "@/app/components/modals/Heading";
@@ -10,9 +9,11 @@ import toast from "react-hot-toast";
 import Button from "@/app/components/Button";
 import {FcGoogle} from "react-icons/fc";
 import {AiFillGithub} from "react-icons/ai";
-import useLoginModal from "@/app/hooks/useLoginModal";
 import {signIn} from "next-auth/react";
 import {useRouter} from "next/navigation";
+
+import useLoginModal from "@/app/hooks/useLoginModal";
+import useRegisterModal from "@/app/hooks/useRegisterModal";
 
 const LoginModal = () => {
   const router = useRouter()
@@ -51,25 +52,11 @@ const LoginModal = () => {
       }
     })
   }
-
-  const footerContent = (
-    <div className={'flex flex-col gap-4 mt-3'}>
-      <hr/>
-      <Button
-        outline
-        label={'Continue with Google'}
-        icon={FcGoogle}
-        onClick={() => {
-        }}
-      />
-      <Button
-        outline
-        label={'Continue with Github'}
-        icon={AiFillGithub}
-        onClick={() => signIn('github')}
-      />
-    </div>
-  )
+  /**로그인창 닫고 가입창으로 전환*/
+  const toggle = useCallback(() => {
+    loginModal.onClose()
+    registerModal.onOpen()
+  }, [loginModal, registerModal])
 
   const bodyContent = (
     <div className='flex flex-col gap-4'>
@@ -96,6 +83,47 @@ const LoginModal = () => {
       />
     </div>
   )
+
+  const footerContent = (
+    <div className={'flex flex-col gap-4 mt-3'}>
+      <hr/>
+      <Button
+        outline
+        label={'Continue with Google'}
+        icon={FcGoogle}
+        onClick={() => {
+        }}
+      />
+      <Button
+        outline
+        label={'Continue with Github'}
+        icon={AiFillGithub}
+        onClick={() => signIn('github')}
+      />
+      <div
+        className={
+          'text-neutral-500 text-center mt-4 font-light'
+        }>
+        <div
+          className={
+            'justify-center flex flex-row items-center gap-2'
+          }>
+          <div>
+            First time using Airbnb?
+          </div>
+          <div
+            onClick={toggle}
+            className={
+              'text-neutral-800 cursor-pointer hover:underline'
+            }
+          >
+            Create an account
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+
   return (
     <Modal
       disabled={isLoading}
