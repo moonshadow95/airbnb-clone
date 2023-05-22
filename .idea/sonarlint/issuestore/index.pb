@@ -8,8 +8,6 @@ M
 B
 tailwind.config.js,0\9\0918cbb76f2c44f223706cec9d31a32cd1177ce4
 Q
-!app/components/modals/Heading.tsx,2\1\2194539d03cae351fed6719a757aabc212c893d2
-Q
 !app/providers/ToasterProvider.tsx,5\0\50579e823a54a7fd3ea580b393069fc3976bb3fd
 A
 postcss.config.js,3\f\3f70684581fd16ab3be77ca959e0138ef3ee8bfb
@@ -17,8 +15,6 @@ A
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 =
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
-<
-app/page.tsx,6\f\6f76c4f4dad83442e836edc16c9735cb7bb32a73
 I
 app/components/Avatar.tsx,7\b\7bec9005fe48faafb831878f06d96e6047738d44
 I
@@ -29,10 +25,6 @@ O
 pages/api/auth/[...nextauth].ts,a\6\a6a957c8fa0c994a35e6dddd1da2bd2b6969c9a6
 M
 app/actions/getCurrentUser.ts,8\e\8efb4c05c60ff296c70b8da7b07d16cc354927d5
-I
-app/components/Button.tsx,9\4\94a0ca5e77e27d257543479661ac64f5775c9cab
-B
-app/types/index.ts,0\5\05941b35c9656f90932a5265d9e4c8f21cd143af
 T
 $app/components/navbar/Categories.tsx,8\5\85bdb6f70fc23d5c2d209f5d029bbcaf2a022740
 P
@@ -41,8 +33,6 @@ N
 app/components/CategoryBox.tsx,9\4\943f815b9885d4efc45bb34b44b699a7238ddf2b
 J
 app/hooks/useLoginModal.ts,5\3\5353116ad005052941ac54da3e6e98dab06af9f7
->
-app/layout.tsx,e\e\ee80c90a95b380fdaa8bc6ba2190fbb3fdc30bb0
 M
 app/hooks/useRegisterModal.ts,e\2\e2bc5803d406b6cec5fdf617f1f1d50711316c91
 O

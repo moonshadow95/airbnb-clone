@@ -3,8 +3,6 @@ L
 app/components/Container.tsx,e\e\ee2ce1a98b0f254de3825bd38b8803f0ed30acd0
 M
 app/components/ClientOnly.tsx,e\f\ef7a65e8f76a823f14db2148b0eef7f2f882c2fa
-Q
-!app/components/modals/Heading.tsx,2\1\2194539d03cae351fed6719a757aabc212c893d2
 >
 .eslintrc.json,7\1\71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
 B
@@ -17,8 +15,6 @@ A
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 =
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
-<
-app/page.tsx,6\f\6f76c4f4dad83442e836edc16c9735cb7bb32a73
 I
 app/components/Avatar.tsx,7\b\7bec9005fe48faafb831878f06d96e6047738d44
 I
@@ -33,18 +29,12 @@ J
 app/hooks/useLoginModal.ts,5\3\5353116ad005052941ac54da3e6e98dab06af9f7
 M
 app/actions/getCurrentUser.ts,8\e\8efb4c05c60ff296c70b8da7b07d16cc354927d5
-I
-app/components/Button.tsx,9\4\94a0ca5e77e27d257543479661ac64f5775c9cab
 N
 app/components/CategoryBox.tsx,9\4\943f815b9885d4efc45bb34b44b699a7238ddf2b
-B
-app/types/index.ts,0\5\05941b35c9656f90932a5265d9e4c8f21cd143af
 T
 $app/components/navbar/Categories.tsx,8\5\85bdb6f70fc23d5c2d209f5d029bbcaf2a022740
 I
 app/hooks/useRentModal.ts,5\1\51971ec288df12947180e3526d8bdabcb67677a9
->
-app/layout.tsx,e\e\ee80c90a95b380fdaa8bc6ba2190fbb3fdc30bb0
 M
 app/hooks/useRegisterModal.ts,e\2\e2bc5803d406b6cec5fdf617f1f1d50711316c91
 O
