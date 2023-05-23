@@ -15,9 +15,10 @@ export default async function Home() {
     </ClientOnly>)
   }
 
-  return (<ClientOnly>
-    <Container>
-      <div className={`
+  return (
+    <ClientOnly>
+      <Container>
+        <div className={`
           pt-24
           grid
           grid-cols-1
@@ -28,16 +29,16 @@ export default async function Home() {
           2xl:grid-cols-6
           gap-8
         `}>
-        {listings.map((listing: any) => {
-          return (
-            <ListingCard
-              key={listing.id}
-              currentUser={currentUser}
-              data={listing}
-            />
-          )
-        })}
-      </div>
-    </Container>
-  </ClientOnly>)
+          {listings.map((listing: any) => {
+            return (
+              <ListingCard
+                key={listing.id}
+                currentUser={currentUser}
+                data={listing}
+              />
+            )
+          })}
+        </div>
+      </Container>
+    </ClientOnly>)
 }

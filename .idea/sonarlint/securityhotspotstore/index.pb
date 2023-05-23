@@ -65,3 +65,13 @@ U
 %app/components/inputs/ImageUpload.tsx,0\6\065bf7bb71ce5f7a2821f2fef5cd4f0800bf7d3d
 D
 app/libs/prismadb.ts,e\c\ec8d55c60541bb491c36b1f14b545afcb45d6e7e
+S
+#app/components/modals/RentModal.tsx,a\4\a447f49792b3b3115f57ee042a341a828c86f52c
+D
+prisma/schema.prisma,1\8\187e4a6f168cf143dde68ce28a29ae08ce9b9578
+I
+app/api/listings/route.ts,5\7\579d31b877169c373c3693057ecc9d275176e61b
+O
+app/components/inputs/Input.tsx,8\8\88393e94ba3a80c89e5ff1042e9f9e3e75e57dc1
+Q
+!app/components/modals/Heading.tsx,2\1\2194539d03cae351fed6719a757aabc212c893d2
