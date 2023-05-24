@@ -43,8 +43,6 @@ W
 'app/components/inputs/CategoryInput.tsx,d\4\d48468e6541e734f67de16e8db2ae36c35c53a57
 I
 app/hooks/useCountries.ts,d\6\d6142fb9005060a732ec3fd0df2bd2bcf0e6dbff
-?
-app/globals.css,4\d\4dfa49b1332116153eb16507891285845e9ab86e
 W
 'app/components/inputs/CountrySelect.tsx,1\6\1642dc178b4ba3efb74adf28e39436d5528f7269
 F

@@ -51,8 +51,6 @@ I
 app/hooks/useCountries.ts,d\6\d6142fb9005060a732ec3fd0df2bd2bcf0e6dbff
 W
 'app/components/inputs/CountrySelect.tsx,1\6\1642dc178b4ba3efb74adf28e39436d5528f7269
-?
-app/globals.css,4\d\4dfa49b1332116153eb16507891285845e9ab86e
 F
 app/components/Map.tsx,b\8\b8f594a387255f0e1a07c7088b4fe77bb633edf2
 Q
