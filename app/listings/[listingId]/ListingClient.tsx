@@ -2,8 +2,7 @@
 
 import React, {useCallback, useEffect, useMemo, useState} from 'react';
 import {useRouter} from "next/navigation";
-import {Reservation} from "@prisma/client";
-import {SafeListing, SafeUser} from "@/app/types";
+import {SafeListing, SafeReservation, SafeUser} from "@/app/types";
 import {categories} from "@/app/components/navbar/Categories";
 import Container from "@/app/components/Container";
 import ListingHead from "@/app/components/listings/ListingHead";
@@ -22,7 +21,7 @@ const initialDateRange = {
 }
 
 interface ListingClientProps {
-  reservations?: Reservation[]
+  reservations?: SafeReservation[]
   /** getListingById 에서 listing 을 반환할 때, user 를 포함시켰기 때문에 타입에 user 를 추가 */
   listing: SafeListing & {
     user: SafeUser

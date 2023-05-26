@@ -81,8 +81,6 @@ N
 app/components/HeartButton.tsx,f\5\f50f6499e83bbcb7ca6d76bb6885717e46f25dec
 I
 app/components/Button.tsx,9\4\94a0ca5e77e27d257543479661ac64f5775c9cab
-B
-app/types/index.ts,0\5\05941b35c9656f90932a5265d9e4c8f21cd143af
 H
 app/hooks/useFavorite.ts,0\7\07dcc5b465e84268a4fe4ccdae9ff80dff62e92a
 M
@@ -91,3 +89,5 @@ V
 &app/api/favorites/[listingId]/route.ts,1\2\12ab284a1279f68122b5b1ade5833db18cd018b0
 J
 app/actions/getListings.ts,3\a\3a0b6075ebc5223fd36cda0cdcbd8576f826554f
+M
+app/actions/getListingById.ts,1\8\18db460f84b4eddafb07c13200284b04a980f5f3

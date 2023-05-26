@@ -89,5 +89,5 @@ J
 app/actions/getListings.ts,3\a\3a0b6075ebc5223fd36cda0cdcbd8576f826554f
 V
 &app/api/favorites/[listingId]/route.ts,1\2\12ab284a1279f68122b5b1ade5833db18cd018b0
-B
-app/types/index.ts,0\5\05941b35c9656f90932a5265d9e4c8f21cd143af
+M
+app/actions/getListingById.ts,1\8\18db460f84b4eddafb07c13200284b04a980f5f3
