@@ -65,3 +65,43 @@ V
 &app/api/favorites/[listingId]/route.ts,1\2\12ab284a1279f68122b5b1ade5833db18cd018b0
 M
 app/actions/getListingById.ts,1\8\18db460f84b4eddafb07c13200284b04a980f5f3
+?
+app/globals.css,4\d\4dfa49b1332116153eb16507891285845e9ab86e
+T
+$app/components/navbar/Categories.tsx,8\5\85bdb6f70fc23d5c2d209f5d029bbcaf2a022740
+B
+app/types/index.ts,0\5\05941b35c9656f90932a5265d9e4c8f21cd143af
+Q
+!app/listings/[listingId]/page.tsx,f\2\f21b945d87ccdb71ea3fdb1b2d492b92261f298d
+M
+app/api/reservations/route.ts,1\1\11bfdfa70887b7a3bc06ce38660e2202537c38d7
+W
+'app/components/inputs/CategoryInput.tsx,d\4\d48468e6541e734f67de16e8db2ae36c35c53a57
+Q
+!app/components/inputs/Counter.tsx,8\b\8bea48da80074e09b382a10a38487a157717578d
+W
+'app/components/inputs/CountrySelect.tsx,1\6\1642dc178b4ba3efb74adf28e39436d5528f7269
+U
+%app/components/inputs/ImageUpload.tsx,0\6\065bf7bb71ce5f7a2821f2fef5cd4f0800bf7d3d
+O
+app/components/inputs/Input.tsx,8\8\88393e94ba3a80c89e5ff1042e9f9e3e75e57dc1
+[
++app/components/listings/ListingCategory.tsx,6\8\68a7e3dcbfca2f259b0a0d1acad247c6905201e5
+W
+'app/components/listings/ListingHead.tsx,5\f\5f091176e026be9392693d07453864cc4c3bada1
+W
+'app/components/listings/ListingInfo.tsx,0\e\0e0739982756ddde45cdc651f90c00032ccd9528
+O
+app/components/modals/Modal.tsx,c\0\c0cc2223d016c4f5e4902eb76b0c968667996900
+T
+$app/components/modals/LoginModal.tsx,3\7\3792d63a5dc07cbf79b1ec4febba5a393f1cdae5
+N
+app/components/HeartButton.tsx,f\5\f50f6499e83bbcb7ca6d76bb6885717e46f25dec
+Q
+!app/components/modals/Heading.tsx,2\1\2194539d03cae351fed6719a757aabc212c893d2
+N
+app/components/navbar/Logo.tsx,2\a\2a7d52f608dd5dd00742236a2dc40bef75dfbca2
+B
+app/trips/page.tsx,7\b\7b6b4b804243e7cc83f7053c0bb9e02f43a6d126
+^
+.app/components/listings/ListingReservation.tsx,3\3\333e8c3a937d8a9ea56bce31a01f095558ea5b16
