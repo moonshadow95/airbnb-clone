@@ -5,18 +5,18 @@ import {AiOutlineMenu} from "react-icons/ai";
 import Avatar from "@/app/components/Avatar";
 import MenuItem from "@/app/components/navbar/MenuItem";
 import {signOut} from "next-auth/react";
-
 import useLoginModal from "@/app/hooks/useLoginModal";
 import useRentModal from "@/app/hooks/useRentModal";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
-
 import {SafeUser} from "@/app/types";
+import {useRouter} from "next/navigation";
 
 interface UserMenuProps {
   currentUser?: SafeUser | null
 }
 
 const UserMenu: React.FC<UserMenuProps> = ({currentUser}) => {
+  const router = useRouter()
   const registerModal = useRegisterModal()
   const loginModal = useLoginModal()
   const rentModal = useRentModal()
@@ -32,11 +32,11 @@ const UserMenu: React.FC<UserMenuProps> = ({currentUser}) => {
   const onRent = useCallback(
     () => {
       if (!currentUser) {
-      return  loginModal.onOpen()
+        return loginModal.onOpen()
       }
       rentModal.onOpen()
     },
-    [currentUser,loginModal,rentModal],
+    [currentUser, loginModal, rentModal],
   );
 
 
@@ -64,19 +64,22 @@ const UserMenu: React.FC<UserMenuProps> = ({currentUser}) => {
             {currentUser ? (
               <>
                 <MenuItem
-                  onClick={loginModal.onOpen}
+                  onClick={() => router.push("/trips")}
                   label={'My trips'}
                 />
                 <MenuItem
-                  onClick={registerModal.onOpen}
+                  onClick={() => {
+                  }}
                   label={'My favorites'}
                 />
                 <MenuItem
-                  onClick={registerModal.onOpen}
+                  onClick={() => {
+                  }}
                   label={'My reservations'}
                 />
                 <MenuItem
-                  onClick={registerModal.onOpen}
+                  onClick={() => {
+                  }}
                   label={'My properties'}
                 />
                 <MenuItem

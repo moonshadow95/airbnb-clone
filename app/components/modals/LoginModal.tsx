@@ -11,7 +11,6 @@ import {FcGoogle} from "react-icons/fc";
 import {AiFillGithub} from "react-icons/ai";
 import {signIn} from "next-auth/react";
 import {useRouter} from "next/navigation";
-
 import useLoginModal from "@/app/hooks/useLoginModal";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 

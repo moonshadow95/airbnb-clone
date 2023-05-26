@@ -19,14 +19,10 @@ I
 app/components/Avatar.tsx,7\b\7bec9005fe48faafb831878f06d96e6047738d44
 I
 app/api/register/route.ts,0\d\0dee68660eb6f86ef6f5ece1d0ef2626afb95a07
-N
-app/components/navbar/Logo.tsx,2\a\2a7d52f608dd5dd00742236a2dc40bef75dfbca2
 O
 pages/api/auth/[...nextauth].ts,a\6\a6a957c8fa0c994a35e6dddd1da2bd2b6969c9a6
 M
 app/actions/getCurrentUser.ts,8\e\8efb4c05c60ff296c70b8da7b07d16cc354927d5
-T
-$app/components/navbar/Categories.tsx,8\5\85bdb6f70fc23d5c2d209f5d029bbcaf2a022740
 P
  app/components/navbar/Navbar.tsx,c\4\c4fc8afea3d25ed3a85be1b78006f16f9b8cee1d
 N
@@ -35,32 +31,16 @@ J
 app/hooks/useLoginModal.ts,5\3\5353116ad005052941ac54da3e6e98dab06af9f7
 M
 app/hooks/useRegisterModal.ts,e\2\e2bc5803d406b6cec5fdf617f1f1d50711316c91
-O
-app/components/modals/Modal.tsx,c\0\c0cc2223d016c4f5e4902eb76b0c968667996900
-T
-$app/components/modals/LoginModal.tsx,3\7\3792d63a5dc07cbf79b1ec4febba5a393f1cdae5
-W
-'app/components/inputs/CategoryInput.tsx,d\4\d48468e6541e734f67de16e8db2ae36c35c53a57
 I
 app/hooks/useCountries.ts,d\6\d6142fb9005060a732ec3fd0df2bd2bcf0e6dbff
-W
-'app/components/inputs/CountrySelect.tsx,1\6\1642dc178b4ba3efb74adf28e39436d5528f7269
 F
 app/components/Map.tsx,b\8\b8f594a387255f0e1a07c7088b4fe77bb633edf2
-W
-'app/components/modals/RegisterModal.tsx,3\0\30309c7cc5caed688ebaf13fe619a009cd8c36c8
 I
 app/hooks/useRentModal.ts,5\1\51971ec288df12947180e3526d8bdabcb67677a9
-R
-"app/components/navbar/UserMenu.tsx,c\1\c1570618505da1cc081ba640473f0377b9eb8019
 4
 .env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 >
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
-U
-%app/components/inputs/ImageUpload.tsx,0\6\065bf7bb71ce5f7a2821f2fef5cd4f0800bf7d3d
-Q
-!app/components/inputs/Counter.tsx,8\b\8bea48da80074e09b382a10a38487a157717578d
 D
 app/libs/prismadb.ts,e\c\ec8d55c60541bb491c36b1f14b545afcb45d6e7e
 S
@@ -69,18 +49,12 @@ D
 prisma/schema.prisma,1\8\187e4a6f168cf143dde68ce28a29ae08ce9b9578
 I
 app/api/listings/route.ts,5\7\579d31b877169c373c3693057ecc9d275176e61b
-O
-app/components/inputs/Input.tsx,8\8\88393e94ba3a80c89e5ff1042e9f9e3e75e57dc1
-Q
-!app/components/modals/Heading.tsx,2\1\2194539d03cae351fed6719a757aabc212c893d2
 >
 app/layout.tsx,e\e\ee80c90a95b380fdaa8bc6ba2190fbb3fdc30bb0
 I
 app/components/Button.tsx,9\4\94a0ca5e77e27d257543479661ac64f5775c9cab
 M
 app/components/EmptyState.tsx,2\1\21bb5541bb0bb5caeb27c3d00346d7b47395e004
-N
-app/components/HeartButton.tsx,f\5\f50f6499e83bbcb7ca6d76bb6885717e46f25dec
 H
 app/hooks/useFavorite.ts,0\7\07dcc5b465e84268a4fe4ccdae9ff80dff62e92a
 <

@@ -2,7 +2,6 @@
 
 import React, {useCallback, useMemo} from 'react';
 import Image from "next/image";
-
 import {useRouter} from "next/navigation";
 import useCountries from "@/app/hooks/useCountries";
 import {SafeListing, SafeReservation, SafeUser} from "@/app/types";
@@ -36,7 +35,7 @@ const ListingCard: React.FC<ListingCardProps> = (
 
   const location = getByValue(data.locationValue)
 
-  const handleCancle = useCallback(
+  const handleCancel = useCallback(
     (e: React.MouseEvent<HTMLButtonElement>) => {
       e.stopPropagation()
 
@@ -114,7 +113,7 @@ const ListingCard: React.FC<ListingCardProps> = (
             label={actionLabel}
             small
             disabled={disabled}
-            onClick={handleCancle}
+            onClick={handleCancel}
           />
         )}
       </div>

@@ -1,7 +1,6 @@
 'use client'
 
 import React, {useCallback, useState} from 'react';
-
 import {FieldValues, SubmitHandler, useForm} from 'react-hook-form';
 import axios from "axios";
 import Modal from "@/app/components/modals/Modal";
@@ -12,7 +11,6 @@ import Button from "@/app/components/Button";
 import {FcGoogle} from "react-icons/fc";
 import {AiFillGithub} from "react-icons/ai";
 import {signIn} from "next-auth/react";
-
 import useLoginModal from "@/app/hooks/useLoginModal";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 
