@@ -105,3 +105,5 @@ N
 app/components/navbar/Logo.tsx,2\a\2a7d52f608dd5dd00742236a2dc40bef75dfbca2
 B
 app/trips/page.tsx,7\b\7b6b4b804243e7cc83f7053c0bb9e02f43a6d126
+W
+'app/components/listings/ListingCard.tsx,2\8\28a810e2bf63f1f893bbdc2d52b3d114e0293cc6

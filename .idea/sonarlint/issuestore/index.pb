@@ -105,3 +105,5 @@ B
 app/trips/page.tsx,7\b\7b6b4b804243e7cc83f7053c0bb9e02f43a6d126
 ^
 .app/components/listings/ListingReservation.tsx,3\3\333e8c3a937d8a9ea56bce31a01f095558ea5b16
+W
+'app/components/listings/ListingCard.tsx,2\8\28a810e2bf63f1f893bbdc2d52b3d114e0293cc6
