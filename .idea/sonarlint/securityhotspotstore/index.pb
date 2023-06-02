@@ -37,22 +37,14 @@ I
 app/hooks/useCountries.ts,d\6\d6142fb9005060a732ec3fd0df2bd2bcf0e6dbff
 F
 app/components/Map.tsx,b\8\b8f594a387255f0e1a07c7088b4fe77bb633edf2
-4
-.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 >
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
-D
-app/libs/prismadb.ts,e\c\ec8d55c60541bb491c36b1f14b545afcb45d6e7e
 S
 #app/components/modals/RentModal.tsx,a\4\a447f49792b3b3115f57ee042a341a828c86f52c
 D
 prisma/schema.prisma,1\8\187e4a6f168cf143dde68ce28a29ae08ce9b9578
 I
 app/api/listings/route.ts,5\7\579d31b877169c373c3693057ecc9d275176e61b
->
-app/layout.tsx,e\e\ee80c90a95b380fdaa8bc6ba2190fbb3fdc30bb0
-<
-app/page.tsx,6\f\6f76c4f4dad83442e836edc16c9735cb7bb32a73
 I
 app/components/Button.tsx,9\4\94a0ca5e77e27d257543479661ac64f5775c9cab
 H
@@ -61,8 +53,6 @@ M
 app/components/EmptyState.tsx,2\1\21bb5541bb0bb5caeb27c3d00346d7b47395e004
 V
 &app/api/favorites/[listingId]/route.ts,1\2\12ab284a1279f68122b5b1ade5833db18cd018b0
-J
-app/actions/getListings.ts,3\a\3a0b6075ebc5223fd36cda0cdcbd8576f826554f
 M
 app/actions/getListingById.ts,1\8\18db460f84b4eddafb07c13200284b04a980f5f3
 ?
@@ -107,3 +97,15 @@ B
 app/trips/page.tsx,7\b\7b6b4b804243e7cc83f7053c0bb9e02f43a6d126
 W
 'app/components/listings/ListingCard.tsx,2\8\28a810e2bf63f1f893bbdc2d52b3d114e0293cc6
+I
+app/trips/TripsClient.tsx,3\2\3297499075320098f64117bd5ad73ed2f47f5ac9
+Z
+*app/listings/[listingId]/ListingClient.tsx,0\8\08dddb5920f6d17e6e48dad4a53b218f2802f05a
+N
+app/actions/getReservations.ts,7\5\75052a7530e00646ccdbd8ce284d543bbe5a75d9
+R
+"app/components/inputs/Calendar.tsx,8\1\819446b2538c333ada1a428779cd1720745132d3
+I
+app/reservations/page.tsx,8\0\808a2a2b5b3919c3df2425284e9010dc1e7c99e2
+]
+-app/api/reservations/[reservationId]/route.ts,f\0\f034f88e32bb0e25ee141dee2ef8fdea0d9aa3f2
