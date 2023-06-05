@@ -21,8 +21,6 @@ M
 app/hooks/useRegisterModal.ts,e\2\e2bc5803d406b6cec5fdf617f1f1d50711316c91
 I
 app/hooks/useCountries.ts,d\6\d6142fb9005060a732ec3fd0df2bd2bcf0e6dbff
-F
-app/components/Map.tsx,b\8\b8f594a387255f0e1a07c7088b4fe77bb633edf2
 S
 #app/components/modals/RentModal.tsx,a\4\a447f49792b3b3115f57ee042a341a828c86f52c
 I
@@ -61,8 +59,6 @@ O
 +app/components/listings/ListingCategory.tsx,6\8\68a7e3dcbfca2f259b0a0d1acad247c6905201e5
 W
 'app/components/listings/ListingHead.tsx,5\f\5f091176e026be9392693d07453864cc4c3bada1
-W
-'app/components/listings/ListingInfo.tsx,0\e\0e0739982756ddde45cdc651f90c00032ccd9528
 O
 app/components/modals/Modal.tsx,c\0\c0cc2223d016c4f5e4902eb76b0c968667996900
 N
