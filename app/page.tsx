@@ -18,7 +18,7 @@ const Home = async ({searchParams}: HomeProps) => {
       <EmptyState showReset/>
     </ClientOnly>)
   }
-  
+
   return (
     <ClientOnly>
       <Container>
@@ -33,15 +33,13 @@ const Home = async ({searchParams}: HomeProps) => {
           2xl:grid-cols-6
           gap-8
         `}>
-          {listings.map((listing: any) => {
-            return (
-              <ListingCard
-                key={listing.id}
-                currentUser={currentUser}
-                data={listing}
-              />
-            )
-          })}
+          {listings.map((listing: any) => (
+            <ListingCard
+              currentUser={currentUser}
+              key={listing.id}
+              data={listing}
+            />
+          ))}
         </div>
       </Container>
     </ClientOnly>)
