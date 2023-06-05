@@ -21,10 +21,6 @@ I
 app/api/register/route.ts,0\d\0dee68660eb6f86ef6f5ece1d0ef2626afb95a07
 P
  app/components/navbar/Navbar.tsx,c\4\c4fc8afea3d25ed3a85be1b78006f16f9b8cee1d
-O
-pages/api/auth/[...nextauth].ts,a\6\a6a957c8fa0c994a35e6dddd1da2bd2b6969c9a6
-M
-app/actions/getCurrentUser.ts,8\e\8efb4c05c60ff296c70b8da7b07d16cc354927d5
 N
 app/components/CategoryBox.tsx,9\4\943f815b9885d4efc45bb34b44b699a7238ddf2b
 I
@@ -61,8 +57,6 @@ M
 app/api/reservations/route.ts,1\1\11bfdfa70887b7a3bc06ce38660e2202537c38d7
 Q
 !app/listings/[listingId]/page.tsx,f\2\f21b945d87ccdb71ea3fdb1b2d492b92261f298d
-B
-app/types/index.ts,0\5\05941b35c9656f90932a5265d9e4c8f21cd143af
 T
 $app/components/navbar/Categories.tsx,8\5\85bdb6f70fc23d5c2d209f5d029bbcaf2a022740
 W
@@ -83,8 +77,6 @@ W
 'app/components/listings/ListingInfo.tsx,0\e\0e0739982756ddde45cdc651f90c00032ccd9528
 O
 app/components/modals/Modal.tsx,c\0\c0cc2223d016c4f5e4902eb76b0c968667996900
-T
-$app/components/modals/LoginModal.tsx,3\7\3792d63a5dc07cbf79b1ec4febba5a393f1cdae5
 N
 app/components/HeartButton.tsx,f\5\f50f6499e83bbcb7ca6d76bb6885717e46f25dec
 Q
@@ -107,3 +99,25 @@ I
 app/reservations/page.tsx,8\0\808a2a2b5b3919c3df2425284e9010dc1e7c99e2
 ]
 -app/api/reservations/[reservationId]/route.ts,f\0\f034f88e32bb0e25ee141dee2ef8fdea0d9aa3f2
+F
+app/favorites/page.tsx,7\7\773caeb485fe9814a4b95ec19a1c598288c6036c
+W
+'app/components/modals/RegisterModal.tsx,3\0\30309c7cc5caed688ebaf13fe619a009cd8c36c8
+U
+%app/api/favorites/favoritesClient.tsx,4\e\4ea57bada35ad521324635d8a41912d9b4b2f93f
+W
+'app/reservations/ReservationsClient.tsx,6\3\633b228b915fdc904a31a5c24d0345949b92e65e
+G
+app/properties/page.tsx,1\2\12f11fd189d08866c10f1e2bb78f1666a108cc01
+R
+"app/components/navbar/UserMenu.tsx,c\1\c1570618505da1cc081ba640473f0377b9eb8019
+R
+"app/actions/getFavoriteListings.ts,a\7\a77eaab56dce35486e26a5bdc0662e666655172c
+S
+#app/properties/PropertiesClient.tsx,7\6\7628bd8179d0456ecba0eeed243da74a5d3b7d4b
+D
+app/libs/prismadb.ts,e\c\ec8d55c60541bb491c36b1f14b545afcb45d6e7e
+U
+%app/api/listings/[listingId]/route.ts,9\7\97e948bc5a5f05837433d4afb0aefaa4f58355d1
+J
+app/hooks/useLoginModal.ts,5\3\5353116ad005052941ac54da3e6e98dab06af9f7
