@@ -3,16 +3,10 @@ L
 app/components/Container.tsx,e\e\ee2ce1a98b0f254de3825bd38b8803f0ed30acd0
 M
 app/components/ClientOnly.tsx,e\f\ef7a65e8f76a823f14db2148b0eef7f2f882c2fa
->
-.eslintrc.json,7\1\71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
 B
 tailwind.config.js,0\9\0918cbb76f2c44f223706cec9d31a32cd1177ce4
-A
-postcss.config.js,3\f\3f70684581fd16ab3be77ca959e0138ef3ee8bfb
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-=
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 I
 app/components/Avatar.tsx,7\b\7bec9005fe48faafb831878f06d96e6047738d44
 I
@@ -29,8 +23,6 @@ F
 app/components/Map.tsx,b\8\b8f594a387255f0e1a07c7088b4fe77bb633edf2
 I
 app/hooks/useRentModal.ts,5\1\51971ec288df12947180e3526d8bdabcb67677a9
->
-next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 S
 #app/components/modals/RentModal.tsx,a\4\a447f49792b3b3115f57ee042a341a828c86f52c
 I
@@ -111,8 +103,6 @@ R
 "app/actions/getFavoriteListings.ts,a\7\a77eaab56dce35486e26a5bdc0662e666655172c
 S
 #app/properties/PropertiesClient.tsx,7\6\7628bd8179d0456ecba0eeed243da74a5d3b7d4b
-D
-app/libs/prismadb.ts,e\c\ec8d55c60541bb491c36b1f14b545afcb45d6e7e
 U
 %app/api/listings/[listingId]/route.ts,9\7\97e948bc5a5f05837433d4afb0aefaa4f58355d1
 J
