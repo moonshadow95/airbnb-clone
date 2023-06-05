@@ -37,7 +37,7 @@ const SearchModal = () => {
 
   const Map = useMemo(() => dynamic(() => import('../Map'), {
     ssr: false
-  }), [location]);
+  }), []);
 
   const onBack = useCallback(
     () => {
@@ -63,7 +63,7 @@ const SearchModal = () => {
         currentQuery = qs.parse(params.toString())
       }
 
-      const updatedQuey: any = {
+      const updatedQuery: any = {
         ...currentQuery,
         locationValue: location?.value,
         guestCount,
@@ -72,16 +72,16 @@ const SearchModal = () => {
       }
 
       if (dateRange.startDate) {
-        updatedQuey.startDate = formatISO(dateRange.startDate)
+        updatedQuery.startDate = formatISO(dateRange.startDate)
       }
 
       if (dateRange.endDate) {
-        updatedQuey.endDate = formatISO(dateRange.endDate)
+        updatedQuery.endDate = formatISO(dateRange.endDate)
       }
 
       const url = qs.stringifyUrl({
         url: '/',
-        query: updatedQuey
+        query: updatedQuery
       }, {skipNull: true})
 
       setStep(STEPS.LOCATION)
