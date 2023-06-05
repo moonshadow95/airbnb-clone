@@ -33,8 +33,6 @@ I
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 S
 #app/components/modals/RentModal.tsx,a\4\a447f49792b3b3115f57ee042a341a828c86f52c
-D
-prisma/schema.prisma,1\8\187e4a6f168cf143dde68ce28a29ae08ce9b9578
 I
 app/api/listings/route.ts,5\7\579d31b877169c373c3693057ecc9d275176e61b
 I
